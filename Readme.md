@@ -20,4 +20,4 @@ As such i plan to I plan to build on this project and reimplement a new idea. Th
   
 ## Screenshots
 
-![App Screenshot](./Assets/Screenshot 2021-10-05 at 15-49-19 Page.png)
+![App Screenshot](/Screenshot.png)
