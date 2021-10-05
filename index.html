@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="app.js " defer></script>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>GitHub</title>
+    </head>
+
+    <body>
+    <nav class="navbar">
+      <a href="" class="nav-brand">App</a>
+      <ul class="nav__list">
+        <li class="nav-item"><a href="#">About us</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="container">
+
+        <h1>GitHub repos</h1>
+         <form id="repos-form">
+            <input class ="input-bar" id="github-username" type="text" required placeholder="GitHub username">
+            <button type="submit" id="get-repos" class="btn btn-default">SEARCH</button>
+        </form>
+
+        <div id="repo-cards">
+
+        </div>
+    </div>
+
+    </body>
+</html>

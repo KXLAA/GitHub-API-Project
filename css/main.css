@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+.navbar .nav__list {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+
+#repos-form {
+  text-align: center;
+}
+#repos-form .input-bar {
+  padding: 1.3rem 20rem;
+  display: flex;
+  margin-bottom: 1rem;
+  border: 4px solid black;
+}
+#repos-form #get-repos {
+  padding: 1.3rem 4rem;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+#repos-form #get-repos:hover {
+  transform: translate(0px, -5px);
+}
+#repos-form #get-repos:active {
+  transform: translate(0px, 5px);
+}
+#repos-form ::-moz-placeholder {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+#repos-form :-ms-input-placeholder {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+#repos-form ::placeholder {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#repo-cards {
+  margin: 0rem;
+  padding: 0rem;
+  padding-top: 4rem;
+}
+#repo-cards .repo-card {
+  color: white;
+  background-color: black;
+  padding: 3.5rem;
+  padding-bottom: 3rem;
+  width: 60%;
+  margin: 0 auto;
+}
+#repo-cards .title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+#repo-cards .title-container .title-img {
+  border-radius: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  width: 150px;
+  height: 150px;
+}
+#repo-cards .repo-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+#repo-cards .repo-stats {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+#repo-cards .btn__container {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
