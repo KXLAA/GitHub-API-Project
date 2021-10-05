@@ -13,11 +13,14 @@ To enumerate the key issues with the project currently:
 As such i plan to I plan to build on this project and reimplement a new idea. The idea is to create a site that fetches and displays the most stared repos on GitHub based on specific categories like programming language or use case. I don't know if this is possible 🤔 but i will keep the readme updated as i make progress.
 
 
-## Authors
+## 🔗 Links
 
-- [@KXLAA 🤙](https://github.com/KXLAA)
-
+- [LIVE PREVIEW](https://github.com/KXLAA)
   
 ## Screenshots
 
 ![App Screenshot](/Screenshot.png)
+
+## Authors
+
+- [@KXLAA 🤙](https://github.com/KXLAA)
